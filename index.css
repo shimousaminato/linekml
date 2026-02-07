@@ -1,0 +1,260 @@
+        body {
+            font-family: 'Segoe UI', 'Helvetica Neue', Arial, 'Hiragino Kaku Gothic ProN', 'Meiryo', sans-serif;
+            color: #333;
+            line-height: 1.6;
+            background-color: #f4f7f9;
+            margin: 0;
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: auto;
+            padding: 30px;
+            background-color: #fff;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            font-size: 2.5em;
+            color: #1a1a1a;
+            margin-bottom: 10px;
+        }
+
+        .description {
+            font-size: 1.1em;
+            color: #666;
+            margin-bottom: 40px;
+        }
+
+        .button-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            justify-content: center;
+        }
+
+        /* --- ボタンの色合いとホバー効果（既存のCSSを統合） --- */
+        .railwayButton,
+        .oldrailwayButton,
+        .roadButton,
+        .anyButton,
+        .chartButton,
+        .pictButton,
+        .memoButton,
+        .annexButton,
+        .timetableButton,
+        .pointButton,
+        .nigaoeButton,
+        .quizButton,
+        .doshuseiButton,
+        .osakatoButton,
+        .tokyotoButton,
+        .ritsuryoButton,
+        .rokutairikuButton,
+        .laboButton,
+        .nurieButton {
+            display: block;
+            padding: 15px;
+            border: solid 2px;
+            border-radius: 8px;
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1.1em;
+            transition: all 0.3s ease;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .railwayButton {
+            background-color: #0070C0;
+            border-color: #0070C0;
+        }
+        .railwayButton:hover {
+            background-color: white;
+            color: #0070C0;
+        }
+
+        .oldrailwayButton {
+            border-color: #0070C0;
+            color: #0070C0;
+        }
+        .oldrailwayButton:hover {
+            background-color: white;
+            color: #FF0000;
+        }
+
+        .roadButton {
+            background-color: #00994E;
+            border-color: #00994E;
+        }
+        .roadButton:hover {
+            background-color: white;
+            color: #00994E;
+        }
+
+        .anyButton {
+            background-color: #FF9900;
+            border-color: #FF9900;
+        }
+        .anyButton:hover {
+            background-color: white;
+            color: #FF9900;
+        }
+
+        .chartButton {
+            background-color: #B41C04;
+            border-color: #B41C04;
+        }
+        .chartButton:hover {
+            background-color: white;
+            color: #B41C04;
+        }
+
+        .pictButton {
+            background-color: #800E80;
+            border-color: #800E80;
+        }
+        .pictButton:hover {
+            background-color: white;
+            color: #800E80;
+        }
+
+        .memoButton {
+            background-color: #113311;
+            border-color: #113311;
+        }
+        .memoButton:hover {
+            background-color: white;
+            color: #113311;
+        }
+
+        .annexButton {
+            background-color: #1F2F54;
+            border-color: #1F2F54;
+        }
+        .annexButton:hover {
+            background-color: white;
+            color: #1F2F54;
+        }
+
+        .timetableButton {
+            background-color: #666666;
+            border-color: #666666;
+        }
+        .timetableButton:hover {
+            background-color: white;
+            color: #666666;
+        }
+
+        .pointButton {
+            background-color: #008080;
+            border-color: #008080;
+        }
+        .pointButton:hover {
+            background-color: white;
+            color: #008080;
+        }
+
+        .nurieButton {
+            background-color: #5B9BD5;
+            border-color: #5B9BD5;
+        }
+        .nurieButton:hover {
+            background-color: white;
+            color: #5B9BD5;
+        }
+
+        .nigaoeButton {
+            background-color: #6699FF;
+            border-color: #6699FF;
+        }
+        .nigaoeButton:hover {
+            background-color: white;
+            color: #6699FF;
+        }
+
+        .quizButton {
+            background-color: #3949AB;
+            border-color: #3949AB;
+        }
+        .quizButton:hover {
+            background-color: white;
+            color: #3949AB;
+        }
+
+        .doshuseiButton {
+            background-color: #FF6C00;
+            border-color: #FF6C00;
+        }
+        .doshuseiButton:hover {
+            background-color: white;
+            color: #FF6C00;
+        }
+
+        .osakatoButton {
+            background-color: #4969E1;
+            border-color: #4969E1;
+        }
+        .osakatoButton:hover {
+            background-color: white;
+            color: #4969E1;
+        }
+
+        .tokyotoButton {
+            background-color: #FF0000;
+            border-color: #FF0000;
+        }
+        .tokyotoButton:hover {
+            background-color: white;
+            color: #FF0000;
+        }
+
+        .tokyotoButton {
+            background-color: #FF0000;
+            border-color: #FF0000;
+        }
+        .tokyotoButton:hover {
+            background-color: white;
+            color: #FF0000;
+        }
+
+        .ritsuryoButton {
+            background-color: #843C0C;
+            border-color: #843C0C;
+        }
+        .ritsuryoButton:hover {
+            background-color: white;
+            color: #843C0C;
+        }
+
+        .rokutairikuButton {
+            background-color: #548235;
+            border-color: #548235;
+        }
+        .rokutairikuButton:hover {
+            background-color: white;
+            color: #548235;
+        }
+
+        .laboButton {
+            background-color: #000000;
+            border-color: #000000;
+        }
+        .laboButton:hover {
+            background-color: white;
+            color: #000000;
+        }
+        li {
+            padding-bottom: 2px;
+            padding-top: 2px;
+       }
+
+/* --- レスポンシブ対応 --- */
+        @media (max-width: 600px) {
+            .button-grid {
+                grid-template-columns: 1fr;
+            }
+        }
